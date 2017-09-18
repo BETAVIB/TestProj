@@ -21,5 +21,10 @@ namespace TestProj
         {
             label1.Text = "Ouss was here!";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Bechir was here!";
+        }
     }
 }
