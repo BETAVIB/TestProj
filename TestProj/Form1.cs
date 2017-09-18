@@ -19,5 +19,10 @@ namespace TestProj
         {
             label1.Text = "Bechir was here!";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }
