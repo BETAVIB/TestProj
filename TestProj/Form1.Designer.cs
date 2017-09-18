@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOussama
@@ -82,11 +83,21 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(605, 57);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 4;
+            this.button13.Text = "SyncTest 2";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 393);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.label1);
@@ -105,6 +116,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button13;
     }
 }
 
