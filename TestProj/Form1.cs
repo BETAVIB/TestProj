@@ -21,5 +21,11 @@ namespace TestProj
         {
             label1.Text = "Ouss was here!";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+        }
     }
 }
